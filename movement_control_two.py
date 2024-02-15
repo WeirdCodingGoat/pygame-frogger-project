@@ -70,15 +70,15 @@ while running:
             elif event.key == pygame.K_RIGHT:
                 sq1.move(100,0)
         
-        while event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_UP:
-                sq1.move(0,-100)
-            elif event.key == pygame.K_DOWN:
-                sq1.move(0,100)
-            elif event.key == pygame.K_LEFT:
-                sq1.move(-100,0)
-            elif event.key == pygame.K_RIGHT:
-                sq1.move(100,0)
+        #while event.type == pygame.KEYDOWN:
+         #   if event.key == pygame.K_UP:
+          #      sq1.move(0,-100)
+           # elif event.key == pygame.K_DOWN:
+            #    sq1.move(0,100)
+           # elif event.key == pygame.K_LEFT:
+            #    sq1.move(-100,0)
+           # elif event.key == pygame.K_RIGHT:
+            #    sq1.move(100,0)
     
 
 
