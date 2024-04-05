@@ -184,8 +184,11 @@ while running:
 
                         if goal_check(goals) == True:
                             resume_time=clock.get_time()+15
+                            in_control=False
                             if resume_time>30:
                                 resume_time=resume_time-30
+                            
+
                         else:
                             player.rect.center = (400,50)
                             in_control=True
